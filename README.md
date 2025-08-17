@@ -6,6 +6,9 @@ The goal of this project was to build a machine learning model capable of classi
 
 **2. Approach**
 
+=> Dataset: IMDb Movie Reviews Dataset
+ (https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
+
 a) Data Preprocessing
 
 Removed HTML tags, punctuation, and non-alphabetic characters.
@@ -74,5 +77,6 @@ sentiment_analysis.ipynb → Model training & evaluation.
 app.py → Streamlit app.
 
 requirements.txt → Dependencies.
+
 
 Trained model + vectorizer (sentiment_model.pkl, vectorizer.pkl).
